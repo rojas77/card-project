@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="src/style.css" />
+		<script type="text/javascript" async="" src="src/script.js"></script>
+	</head>
+	<body>
+		<div class="parent">
+			<div>
+				<div
+					class="dragable-zone"
+					draggable="true"
+					id="drag-item"
+					ondragstart="onDragStart(event);"
+				></div>
+			</div>
+			<div>
+				<div
+					class="dropable-zone"
+					id="drag-zone"
+					ondragover="onDragOver(event)"
+					ondrop="onDrop(event);"
+				></div>
+			</div>
+		</div>
+	</body>
+</html>

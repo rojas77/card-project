@@ -1,24 +1,16 @@
-.parent{
-    display: flex;
-
+.parent {
+	display: flex;
 }
-.dragable-zone{
-    color: brown;
-    height: 25px;
-    width: 25px;
-    margin-top: 10%;
-    display: flex;
-    padding: 15px;
-    flex-basis: 100%;
-    background-color: brown;
+.dragable-zone {
+	background-color: brown;
 }
 
-.dropable-zone{
-    color: cornflowerblue;
-    background-color: cornflowerblue;
-    height: 200px;
-    width: 200px;
-    margin-top: 10%;
-    flex-basis: 100%;
-    
+.dropable-zone {
+	
+}
+.colum-color-black {
+	background-color: black;
+}
+.colum-color-blue {
+	background-color:cadetblue;
 }
